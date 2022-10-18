@@ -43,7 +43,7 @@
 #if defined(__APPLE__) && defined(__MACH__)
     #define MICROPY_PY_SYS_PLATFORM  "darwin"
 #else
-#define MICROPY_PY_SYS_PLATFORM "rtt-smart"
+#define MICROPY_PY_SYS_PLATFORM "rt-smart"
 #endif
 #endif
 
